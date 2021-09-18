@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
         buttonSelected.isEnabled = false
         checkWinner()
-        restartGame()
+    
     }
     fun checkWinner(){
         var winner = -1
@@ -118,10 +118,6 @@ class MainActivity : AppCompatActivity() {
         else if (winner == 2) {
             Toast.makeText(this, "Player 2 wins the game!", Toast.LENGTH_LONG).show()
         }
-
-    }
-
-    fun restartGame(){
 
     }
 }
